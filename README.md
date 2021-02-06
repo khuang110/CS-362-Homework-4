@@ -1,23 +1,24 @@
 # Homework 4 - Unit Test
 CS 361 - Homework 4
+<dl>
+<dt>1.1</dt> 
+  <dd>Write code to calculate the volume of a cube.</dd>
 
-1.1 Write code to calculate the volume of a cube.
+<dt>1.2</dt>
+  <dd>Use the unittest module and write any 3 tests that can test out your code.</dd>
 
-1.2 Use the unittest module and write any 3 tests that can test out your
-code.
+<dt>2.1</dt>
+  <dd>Write code to calculate the average of elements in a list.</dd>
 
-
-
-2.1 Write code to calculate the average of elements in a list.
-
-2.2 Use the unittest module and write any 3 tests that can test out your
-code.
-
-
+<dt>2.2</dt>
+  <dd>Use the unittest module and write any 3 tests that can test out your code.</dd>
 
 
-3.1 Write code that generates a full name when you provide the first and
-last name as inputs.
 
-3.2 Use the unittest module and write any 3 tests that can test out your
-code.
+
+<dt>3.1</dt>
+<dd>Write code that generates a full name when you provide the first and last name as inputs.</dd>
+
+<dt>3.2</dt>
+  <dd>Use the unittest module and write any 3 tests that can test out your code.</dd>
+</dl>

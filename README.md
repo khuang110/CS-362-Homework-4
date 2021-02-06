@@ -1,4 +1,4 @@
-# calculate_cube
+# Homework 4 - Unit Test
 CS 361 - Homework 4
 
 1.1 Write code to calculate the volume of a cube.

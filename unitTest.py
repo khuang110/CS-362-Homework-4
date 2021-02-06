@@ -6,6 +6,7 @@ from avg_elem import avg_list
 from name import name
 
 
+# Test cases for cube.py
 class CubeTest(unittest.TestCase):
     # check for negative number
     # Edge case
@@ -24,6 +25,7 @@ class CubeTest(unittest.TestCase):
         self.assertEqual(calc_cube(5), 125.0)
 
 
+# Test cases for ave_elem.py
 class ListTest(unittest.TestCase):
     # Test for whole numbers in a list
     # Good case
@@ -45,6 +47,7 @@ class ListTest(unittest.TestCase):
             avg_list(ls)
 
 
+# Test cases for name.py
 class NameTest(unittest.TestCase):
     # Test for name with first and last
     # Good case
@@ -68,5 +71,7 @@ class NameTest(unittest.TestCase):
         with self.assertRaises(TypeError):
             name(first, last)
 
+
+# Run unit test
 if __name__ == '__main__':
     unittest.main()

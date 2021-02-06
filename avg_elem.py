@@ -6,7 +6,7 @@ def avg_list(l):
     if isinstance(l, list) and len(l) != 0:
         for i in l:
             if isinstance(i, str):
-                return "Type Error"
+                raise TypeError("Must be integer list")
         return float(sum(l)/len(l))
     else:
         return 0

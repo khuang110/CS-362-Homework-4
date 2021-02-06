@@ -7,9 +7,9 @@ def calc_cube(x):
         x = float(x)
         return abs(x * x * x)
     except ValueError:
-        return "Undefined, Value Error"
+        raise ValueError("Undefined, Value Error")
     except TypeError:
-        return "Undefined, Type Error"
+        raise TypeError("Undefined, Type Error")
 
 
 if __name__=="__main__":
